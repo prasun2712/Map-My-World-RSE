@@ -1,0 +1,4 @@
+[submodule "catkin_ws/src/ira_laser_tools"]
+	path = catkin_ws/src/ira_laser_tools
+	url = https://github.com/iralabdisco/ira_laser_tools.git
+	branch = kinetic
