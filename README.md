@@ -32,3 +32,7 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
                 * **urdf** - Contains robot related xacros.
                 * **world** - Contains my world file.
     * **images** - Assignment images.
+
+## Images for assignment
+|   World View   |  rtabmap_viz  |  rviz_cloudmap     |     rviz_cloudmap+gridmap    |
+|  |![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rtab_map_viz.png)|![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap.png)|![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap_with_gridmap.png)|
