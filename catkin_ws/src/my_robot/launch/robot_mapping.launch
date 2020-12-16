@@ -1,0 +1,5 @@
+<launch>
+    <include file="$(find my_robot)/launch/world.launch" />
+    <include file="$(find my_robot)/launch/merge_scan.launch" />
+    <include file="$(find my_robot)/launch/rtab_map.launch" />
+</launch>
