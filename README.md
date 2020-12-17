@@ -34,6 +34,11 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
     * **images** - Assignment images.
 
 ## Images for assignment
-|World View   |rtabmap_viz  |rviz_cloudmap     |rviz_cloudmap+gridmap    |
+|World View   |rviz_cloudmap+gridmap  |rviz_cloudmap     |rtabmap_viz    |
 | -------------- |  :---------   |  ----------:       |    :----------:              |
-|  | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rtab_map_viz.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap_with_gridmap.png) |
+| ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/gazebo_world_with_robot.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap_with_gridmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rtab_map_viz.png) |
+
+## RTABMAP Database Files Link
+* **my_world.world &#8594;** [rtabmap_my_world.db](https://drive.google.com/file/d/1j8OnFDLwLMxmhY2nCoIimCamd9-FYzM4/view?usp=sharing)
+* 
+
