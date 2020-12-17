@@ -34,7 +34,7 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
     * **images** - Assignment images.
 
 ## Images for assignment
-|World View   |rviz_cloudmap+gridmap  |rviz_cloudmap     |rtabmap_viz    |
+|World View   |rviz_cloudmap+gridmap  |rviz_cloudmap |rtabmap_viz    |
 | -------------- |  :---------   |  ----------:       |    :----------:              |
 | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/gazebo_world_with_robot.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap_with_gridmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rtab_map_viz.png) |
 
