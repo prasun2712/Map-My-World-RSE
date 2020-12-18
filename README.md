@@ -73,7 +73,8 @@ roslaunch my_robot teleop.launch
 ```
 
 ### Localisation
-Before this download the rtabmap database file from the link provided above and put it in the maps folder and rename it from **rtabmap_my_world.db** to **rtabmap.db** or change the **database_path** in **rtab_map_localize.launch** to **rtabmap_my_world.db**
+Before this download the rtabmap database file from the link provided above and put it in the maps folder and rename it from **rtabmap_my_world.db** to **rtabmap.db** or change the **database_path** in **rtab_map_localize.launch** to **rtabmap_my_world.db**.
+
 ***Terminal 1 - Run rtabmap for localisation***
 ```
 roslaunch my_robot robot_localization.launch
