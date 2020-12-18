@@ -40,6 +40,14 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
 
 ## RTABMAP Database Files Link
 * **my_world.world &#8594;** [rtabmap_my_world.db](https://drive.google.com/file/d/1j8OnFDLwLMxmhY2nCoIimCamd9-FYzM4/view?usp=sharing)
+* Visualise database using :
+```
+rtabmap-databaseViewer <downloaded_database_file>
+```
+* Once open :
+    * Say yes to using the database parameters
+    * View &#8594; Graph view
+    * View &#8594; Occupancy Grid
 
 ## Prerequisite
 * Basic knowledge of ROS.
