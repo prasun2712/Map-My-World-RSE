@@ -21,7 +21,9 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
                     * **skid_steer_diff_bot_base_laser.launch** - Launch file to load robot xacro and run robot_state_publisher and joint_state_publisher.
                     * **teleop.launch** - Launch file for teleop node.
                     * **world.launch** - Launch file to spawn robot in world.
+                    * **robot_localization.launch** - Launch file to bringup simulated world with robot and rtabmap node in localization mode with rviz.
                     * **robot_mapping.launch** - Launch file to bringup simulated world with robot and rtabmap node along with rtabmap visualiser.
+                    * **rtab_map_localize.launch** - Launch file for rtabmap node in localization mode.
                     * **rtab_map.launch** - Launch file for rtabmap node and rtabmap viz.
                     * amcl.launch - Launch file for amcl.
                     * map_server.launch - Launch file for map server.
@@ -58,6 +60,9 @@ rtabmap-databaseViewer <downloaded_database_file>
 ```
 cd ~/
 git clone https://github.com/prasun2712/Map-My-World-RSE.git
+cd ~/Map-My-World-RSE/
+git submodule init
+git submodule update
 cd ~/Map-My-World-RSE/catkin_ws
 catkin_make
 ```
