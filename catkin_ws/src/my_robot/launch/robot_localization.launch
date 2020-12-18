@@ -1,0 +1,6 @@
+<launch>
+    <include file="$(find my_robot)/launch/world.launch" />
+    <include file="$(find my_robot)/launch/merge_scan.launch" />
+    <include file="$(find my_robot)/launch/rtab_map_localize.launch" />
+    <node type="rviz" name="rviz" pkg="rviz" args="-d $(find my_robot)/config/my_world_localize.rviz" />
+</launch>
