@@ -40,6 +40,10 @@ Create a 2D occupancy grid and 3D octomap from a simulated environment using you
 | -------------- |  :---------   |  ----------:       |    :----------:              |
 | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/gazebo_world_with_robot.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap_with_gridmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rviz_cloudmap.png) | ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/rtab_map_viz.png) |
 
+#### Global Loop Closure in Gridmap View.
+As shown in the image below, total number of **global loop closure** &#8594; **9**. Minimum required was 3.
+![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/global_loop_closure.png) 
+
 ## RTABMAP Database Files Link
 * **my_world.world &#8594;** [rtabmap_my_world.db](https://drive.google.com/file/d/1j8OnFDLwLMxmhY2nCoIimCamd9-FYzM4/view?usp=sharing)
 * Visualise database using :
