@@ -45,7 +45,7 @@ As shown in the image below, total number of **global loop closure** &#8594; **9
 ![](https://github.com/prasun2712/Map-My-World-RSE/blob/main/images/global_loop_closure.png) 
 
 ## RTABMAP Database Files Link
-* **my_world.world &#8594;** [rtabmap_my_world.db](https://drive.google.com/file/d/1j8OnFDLwLMxmhY2nCoIimCamd9-FYzM4/view?usp=sharing)
+* **my_world.world &#8594;** [rtabmap.db](https://drive.google.com/file/d/1j8OnFDLwLMxmhY2nCoIimCamd9-FYzM4/view?usp=sharing)
 * Visualise database using :
 ```
 rtabmap-databaseViewer <downloaded_database_file>
@@ -82,7 +82,7 @@ roslaunch my_robot teleop.launch
 ```
 
 ### Localisation
-Before this download the rtabmap database file from the link provided above and put it in the maps folder and rename it from **rtabmap_my_world.db** to **rtabmap.db** or change the **database_path** in **rtab_map_localize.launch** to **rtabmap_my_world.db**.
+Before this download the rtabmap database file from the link provided above and put it in the maps folder.
 
 ***Terminal 1 - Run rtabmap for localisation***
 ```
